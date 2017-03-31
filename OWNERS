@@ -1,0 +1,12 @@
+owners {
+    not-inherit: false
+    approvers: [
+        "mengqy",
+        "wury"
+    ]
+    members: [
+        "denglb",
+        "shijh",
+        "zhoulj"
+    ]
+}

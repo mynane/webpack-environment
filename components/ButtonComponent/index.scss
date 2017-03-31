@@ -1,0 +1,66 @@
+.user-btn {
+    border: 1px solid #D9D9D9;
+    border-radius: 0;
+    width: 148px;
+    height: 48px;
+    font-size: 14px;
+    background: #FFFFFF;
+    outline: none;
+    padding: 0;
+    cursor: not-allowed;
+    &:hover {
+        border: 1px solid #D9D9D9;
+        background: #FFFFFF;
+    }
+    .user-btn-icon {
+        display: none;
+        font-size: 16px;
+    }
+    span {
+        vertical-align: middle;
+    }
+}
+
+.user-btn-init, .user-btn-again {
+    color: #666666;
+    cursor: pointer;
+    &:hover {
+        border-color: #2299EE;
+        color: #2299EE;
+        background: #FFFFFF;
+    }
+    &:active {
+        border-color: #2299EE;
+        color: #FFFFFF;
+        background: #2199ED;
+    }
+}
+
+.user-btn-sending {
+    color: #2299EE;
+    &:hover {
+        color: #2299EE;
+    }
+    .user-btn-icon {
+        display: inline-block;
+    }
+}
+
+.user-btn-success {
+    color: #27C369;
+    &:hover {
+        color: #27C369;
+    }
+    .user-btn-icon {
+        display: inline-block;
+    }
+}
+
+.user-btn-timer {
+    background: #F2F2F2;
+    color: #666666;
+    &:hover {
+        background: #F2F2F2;
+        color: #666666;
+    }
+}

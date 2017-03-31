@@ -1,0 +1,13 @@
+{
+  "presets": ["es2015-ie", "stage-0", "react"],
+  "env": {
+    "development": {
+      "presets": ["react-hmre"]
+    }
+  },
+  "plugins": [
+    "transform-decorators-legacy",
+    "lodash",
+    ["antd", { "style": "css" }]
+  ]
+}
